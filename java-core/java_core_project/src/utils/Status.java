@@ -1,0 +1,5 @@
+package utils;
+
+public enum Status {
+    CHUA_BAT_DAU, DANG_THUC_HIEN, DA_HOAN_THANH, TAM_DUNG, DA_HUY, CHUA_BAN_GIAO, TOT, CHUA_DAT_YEU_CAU
+}
