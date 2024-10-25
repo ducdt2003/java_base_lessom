@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #a20c0c;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+div.card-head {
+    width: 500px;
+    height: auto;
+
+    justify-content: space-between;
+}

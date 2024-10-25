@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Phần tử con */
+
+/*  phaanf tuwr cha  */
+
+.container {
+    /* width: 1200px; */
+    height: 1000px;
+    background-color: pink;
+    /* can giua phan tu */
+    margin: auto;
+
+    /* display: flex; luôn phải có thì mới đung được flex box*/
+    display: flex;
+    
+
+    /*  xác định hướng của phần tử con */
+    /* flex-direction: row-reverse; */
+
+
+    /* flex-wrap phần tử con tự động xuống dòng khi kích thước thu  nhỏ */
+    /* flex-wrap: wrap; */
+
+    /* justify-content quan trọng */
+
+    /* justify-content: center; */
+
+
+    /* aline-item: căn chỉnh phần tử theo cột quan trọng*/
+    /* align-items: center; */
+
+
+    /* align-content: Căn chỉnh các hàng của item; */
+
+    /* align-content: center; */
+}
+
+
+
+/* phần tử con */
+
+.item-1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    font-size: 30px;
+    color: #fff;
+    order: 2;
+    flex-grow: 0;
+}
+
+.item-2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    font-size: 30px;
+    color: #fff;
+    order: 3;
+    flex-grow: 1;
+}
+
+.item-3 {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    font-size: 30px;
+    color: #fff;
+    order: 1;
+    flex-grow: 1;
+}

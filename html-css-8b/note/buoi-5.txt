@@ -1,0 +1,31 @@
+Position static: - là thuộc tính mặc định của position
+         	 - không sữ dung được các phần tử top left right bottom
+
+		margin: 10px 0 0 0;
+			top right bottom left
+
+		 margin: 50px 0;
+                     /* top bottom bằng 50px */
+
+position Relative: - xác định vị trí tuyệt đối của nó giống như mặt trời
+
+		   - vẫn dung được các phần tử top left right bottom z-index
+
+
+css: 
+
+object-fit: cover;  là ảnh hiện tự động theo kích thước PT CHA
+
+
+cách bỏ dấu chấm cặp thẻ ul li ol li : list-style: none;
+
+bỏ gạch hân text-decoration: none
+
+padding: 15px 20px; trên dưới trái phải
+
+display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+font-wight: tawng = doo dam 

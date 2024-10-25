@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* translate(x,y) */
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: translate( 0px, 100px); */
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* margin: auto; */
+    
+}
+
+.box-2:hover {
+    /* width: 500px;
+    height: 500px; */
+    transform: scale(2, 2); /* đơn vị là chính nó 1 là = 100px */
+}
+
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate(45deg);
+    
+    
+}
+
+.box-4 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
+    transition: transform .5s;
+}
+
+.box-4:hover {
+    /* transform: scale(2,2); */
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}

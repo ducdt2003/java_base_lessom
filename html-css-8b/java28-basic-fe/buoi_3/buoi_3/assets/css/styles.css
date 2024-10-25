@@ -1,0 +1,10 @@
+h3{
+    color: orange;
+}
+h4{
+    color: green;
+}
+
+h2, h5 {
+    color: red;
+}

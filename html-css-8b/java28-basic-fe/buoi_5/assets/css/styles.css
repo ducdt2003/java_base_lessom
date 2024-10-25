@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* menu */
+.header-top {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: relative;
+}
+
+.menu-1 {
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+}
+/* static position */
+
+.box-1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+    position: static;
+    /* margin: 0 0 0 50px; */
+    /* top right bottom left */
+
+    /* margin: 50px 0; */
+    /* top bottom bằng 50px */
+}
+
+.box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    /* top: 50px;
+    left: 50px; */
+}
+
+.box-3 {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative; /* mặt trời */
+}
+
+.box-4 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    position: absolute; /* trái đất */
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+}
+
+.box-5 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(192, 233, 255);
+    top: 10px;
+    position: absolute;
+    z-index: 999;
+}
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
+
+.mes {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 10px;
+    
+}

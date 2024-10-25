@@ -1,0 +1,38 @@
+/* reset Browser * chọn tất cả */
+* {
+    margin: 0;/* khoảng cách phần tử */
+    padding: 0;/* khoảng cách phần tử */
+    box-sizing: border-box;/* khoảng cách phần tử trên tất cả trình duyệt đều như nhau*/
+}
+
+/* bộ chọn theo id */
+#title_2_1 {
+color: red;
+}
+#title_2_2 {
+   color: yellow; 
+}
+
+/* bộ chọn theo class */
+.title_3_1 {
+    color: violet;
+}
+.title_3_2 {
+    color: orange;
+}
+
+/* bộ chọn cha con XY */
+div h4 {
+    color: green;
+    }
+h4 {
+    color: pink;
+}
+
+/* bộ chọn thẻ link */
+a:link {
+    color: black;
+}
+a:visited {
+    color: aqua;
+}

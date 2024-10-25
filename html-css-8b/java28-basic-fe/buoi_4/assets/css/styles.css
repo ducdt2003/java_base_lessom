@@ -1,0 +1,23 @@
+/* reset Brower */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-1 {
+    width: 200px;
+    height: 200px;
+    background-color: #9980FA;
+    margin-top: 50px;
+    padding-left:  20px;
+    border: 5px solid red;
+}
+.item-2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    /* display: none; ấn phần tử  */
+    display: none;
+}
